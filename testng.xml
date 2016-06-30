@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Onboarding contractor" verbose="1" >
+
+  <test name="Contractor Tests" >
+    <classes>
+      <class name="com.sailpoint.testing.testcases"/>
+    </classes>
+  </test>
+  
+  <parameter name= "automationfile" value ="automation.properties" />
+  
+</suite>
